@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(160, 187, 160);
+} 
+
+.box {
+    background: black;
+    display: inline-block;
+    width: 3%;
+    height: 3%;
+    margin: 0.5px;
+}
+
+.blueBox {
+    background: blue;
+}
+.clear {
+    background: red;
+    display: block;
+    float: clear;
+
+}
+
+
